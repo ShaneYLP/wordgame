@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<!--Title of page-->
+  <head>
+    <meta charset="utf-8">
+    <title>Antivirus Word Game</title>
+    <link rel="stylesheet" href="wordgamestyle.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1>Antivirus Word Game</h1>
+  <!--background effects-->
+      <div class="box">
+        <div class="a">A</div>
+        <div class="b">B</div>
+        <div class="c">C</div>
+        <div class="d">D</div>
+        <div class="e">E</div>
+        <div class="f">F</div>
+        <div class="g">G</div>
+        <div class="h">H</div>
+        <div class="i">I</div>
+        <div class="j">J</div>
+        <div class="k">K</div>
+        <div class="l">L</div>
+        <div class="m">M</div>
+        <div class="n">N</div>
+        <div class="o">O</div>
+        <div class="p">P</div>
+        <div class="q">Q</div>
+        <div class="r">R</div>
+        <div class="s">S</div>
+      </div>
+<!--all the content of the webpage-->
+      <div class="content">
+        <input type="text" class="typing-input" maxlength="1">
+        <div class="inputs"></div>
+        <div class="details">
+          <p class="hint">Hint: <span></span></p>
+          <p class="guess-left">Remaining guesses: <span></span></p>
+          <p class="wrong-letter">Wrong letters: <span></span></p>
+        </div>
+        <button class="reset-btn">Reset Game</button>
+      </div>
+    </div>
+<!--connects the javascripts-->
+    <script src="js/wgwords.js"></script>
+    <script src="js/wgscript.js"></script>
+
+  </body>
+</html>
